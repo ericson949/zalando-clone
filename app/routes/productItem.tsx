@@ -6,6 +6,7 @@ import {GlobeIcon} from "~/shared/icons/GlobeIcon";
 import UserIcon from "~/shared/icons/UserIcon";
 import {HeartIcon} from "~/shared/icons/HeartIcon";
 import {BagIcon} from "~/shared/icons/BagIcon";
+import CategoriesAndSearch from "~/product/ui/view/components/CategoriesAndSearch";
 export function meta({}: Route.MetaArgs) {
     return [
       { title: "Mister Tee Habibi Crest - T-shirt" },
@@ -34,8 +35,8 @@ export default function ProductItemRoute(){
     </div>
     </nav>
     </header>
+    <CategoriesAndSearch />
     <main>
-      <ProductItemView />
     </main>
   </>
 }
