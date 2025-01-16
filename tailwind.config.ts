@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const Unfonts = require("unplugin-fonts");
 
 export default {
   content: ["./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}"],
@@ -15,6 +16,8 @@ export default {
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
         ],
+        tiempos: ["Tiempos"],
+        helveticaNow: ['Helvetica'],
       },
     },
   },
