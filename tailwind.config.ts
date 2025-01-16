@@ -19,6 +19,19 @@ export default {
         tiempos: ["Tiempos"],
         helveticaNow: ['Helvetica'],
       },
+      keyframes: {
+        parallax: {
+          '0%': {
+            objectPosition: 'center',
+          },
+          '100%': {
+            objectPosition: '0 0',
+          },
+        },
+      },
+      animation: {
+        parallax: 'parallax linear both',
+      },
     },
   },
   plugins: [],

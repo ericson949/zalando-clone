@@ -37,6 +37,7 @@ export default function ProductItemRoute(){
     </header>
     <CategoriesAndSearch />
     <main>
+      <ProductItemView />
     </main>
   </>
 }

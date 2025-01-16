@@ -17,6 +17,15 @@
   src: url("./shared/assets/fonts/helveticanowtext-black-demo.ttf") format('ttf');
 }
 
+.slides {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.slides::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+
 
 html,
 body {
