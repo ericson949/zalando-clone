@@ -7,9 +7,6 @@ import DeliveryCard from "~/product/ui/view/components/DeliveryCard";
 export function ProductItemView (){
     return <div>
         <ProductDescription />
-        <OtherColorProduct />
-        <SelectTailleAndAddToBasket />
-        <DeliveryCard />
         <ProductInformations />
     </div>
 }
